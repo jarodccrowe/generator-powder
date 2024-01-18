@@ -1,0 +1,177 @@
+repo_name: jarodccrowe/generator-powder
+report_id: 576b82344cfa43e52398aaf093885ee5
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-18T02:41:04+00:00'
+requested_by: yamalight
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/jarodccrowe/generator-powder
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 1.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tim Ermilov
+  last_updated_on: 2014-04-29 12:34:54.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Tim Ermilov
+  last_updated_on: 2014-04-15 14:12:44.000000000 Z
+- name: Yeoman
+  description: A set of tools for automating development workflow
+  website_url: http://yeoman.io/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Scaffolding Tools
+  image_url: https://img.stackshare.io/service/853/46ea2dd8b1bdd31a8ba61044cb5b6ebe.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tim Ermilov
+  last_updated_on: 2014-04-29 12:34:54.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder/blob/master/app/templates/_package.json
+  detection_source: app/templates/_package.json
+  last_updated_by: Tim Ermilov
+  last_updated_on: 2014-04-22 14:28:14.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tim Ermilov
+  last_updated_on: 2014-04-15 14:12:44.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder
+  detection_source: Repo Metadata
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tim Ermilov
+  last_updated_on: 2014-04-29 12:34:54.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tim Ermilov
+  last_updated_on: 2014-04-29 12:34:54.000000000 Z
+- name: yeoman-generator
+  description: Rails-inspired generator system that provides scaffolding for your
+    apps
+  package_url: https://www.npmjs.com/yeoman-generator
+  version: 0.16.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15971/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/jarodccrowe/generator-powder/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Tim Ermilov
+  last_updated_on: 2014-04-29 12:34:54.000000000 Z
